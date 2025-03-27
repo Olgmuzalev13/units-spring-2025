@@ -121,7 +121,7 @@ class TestCalculator(unittest.TestCase):
             [1, 2, 0, "ok"],
             [1, 7, 0, "ok"],
             [5.1, 2, 2.3505, "ok"],
-            [10000000000000000000000000000000, 2, 71.38013, "ok"],
+            [10000000000000000000000000000000, 2, 102.97977, "ok"],
             [0, 1, ValueError, "err"],
             [1, 0, ValueError, "err"],
             [-2, 1, ValueError, "err"],
